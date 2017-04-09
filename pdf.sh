@@ -4,9 +4,9 @@
     filename=${basename%.*} # 拡張子を取った名前
     pdfflag=1
     dviflag=1
-		path1=/media/s153109/A464-BC88/cel-B/my-reports # 大学のPCのUSBメモリへのパス
-		path2=/media/watanabe/A464-BC88/cel-B/my-reports # 個人のPCのUSBメモリへのパス
-
+    path_class=/cel-B/my-reports # 授業用ディレクトリへのパス
+    path1=/media/s153109/A464-BC88$path_class # 大学のPCのUSBメモリへのパス
+    path2=/media/watanabe/A464-BC88$pathclass # 個人のPCのUSBメモリへのパス
     
 if [ -a ${filename}.tex ]; then
     if [ -a ${filename}.tex ]; then
