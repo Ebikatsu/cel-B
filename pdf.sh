@@ -46,10 +46,5 @@ if [ -a ${filename}.tex ]; then
 			fi    
     elif [ $pdfflag != 0 ]; then
 			echo "${filename}.pdf が開けません．"
-    fi
-
-    # 不要なファイルを削除
-    rm ${filename}.aux
-    rm ${filename}.dvi
-    rm ${filename}.log    
+    fi 
 fi
